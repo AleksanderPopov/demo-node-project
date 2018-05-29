@@ -1,0 +1,30 @@
+{
+  "name": "node-demo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Starting build...\n' && sleep 5 && echo 'Build Success\n'",
+    "unitTests": "echo 'Running unit tests...\n' && sleep 1 && echo 'Success\n'",
+    "componentsTests": "echo 'Running components tests...\n' && sleep 3 && echo 'Success\n'",
+    "integrationTests": "echo 'Running integration tests...\n' && sleep 5 && echo 'Success\n'",
+    "chromeBrowserTests": "echo 'Running chrome acceptance tests...\n' && sleep 10 && echo 'Success\n'",
+    "firefoxBrowserTests": "echo 'Running firefox acceptance tests...\n' && sleep 10 && echo 'Success\n'",
+    "safariBrowserTests": "echo 'Running safari acceptance tests...\n' && sleep 10 && echo 'Success\n'",
+    "deployStage": "echo 'Starting deploy...\n' && sleep 5 && echo 'Build Success\n'",
+    "buildf": "echo 'Starting build...\n' && sleep 2 && error",
+    "unitTestsf": "echo 'Running unit tests...\n' && sleep 1 && error",
+    "componentsTestsf": "echo 'Running components tests...\n' && sleep 1 && error",
+    "integrationTestsf": "echo 'Running integration tests...\n' && sleep 2 && error",
+    "chromeBrowserTestsf": "echo 'Running chrome acceptance tests...\n' && sleep 5 && error",
+    "firefoxBrowserTestsf": "echo 'Running firefox acceptance tests...\n' && sleep 5 && error",
+    "safariBrowserTestsf": "echo 'Running safari acceptance tests...\n' && sleep 5 && error",
+    "deployStagef": "echo 'Starting deploy...\n' && sleep 2 && error"
+  },
+  "dependencies": {
+    "express": "4.16.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
